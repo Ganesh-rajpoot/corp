@@ -1,0 +1,44 @@
+corporatebhaiya/                    # Root project folder
+│
+├── backend/                       # Django Backend Folder (Main Folder)
+│   ├── corporatebhaiya/              # Main Django project directory
+│   │   ├── __init__.py
+│   │   ├── settings.py            # Django settings (database, apps, etc.)
+│   │   ├── urls.py                # Root URL configurations
+│   │   ├── wsgi.py
+│   │   ├── asgi.py
+│   ├── users/                     # Users app
+│   │   ├── migrations/            # Database migrations for users app
+│   │   ├── __init__.py
+│   │   ├── models.py              # Custom user model (or regular User model)
+│   │   ├── views.py               # DRF views for user registration/login
+│   │   ├── serializers.py         # DRF serializers for User
+│   │   ├── urls.py                # User API URL routing
+│   │   ├── templates/             # Templates for User app (if needed)
+│   │   │   └── users/             
+│   │   │       └── user_list.html
+│   │   ├── static/                # Static files for the User app
+│   │   │   └── users/
+│   │   │       └── css/
+│   │   │           └── user_styles.css
+│   │   └── tests.py               # Test cases for user-related functionality
+│   ├── mentors/                   # Mentors app
+│   │   ├── migrations/            # Database migrations for mentors app
+│   │   ├── __init__.py
+│   │   ├── models.py              # Mentor model
+│   │   ├── views.py               # DRF views for Mentor registration
+│   │   ├── serializers.py         # DRF serializers for Mentor
+│   │   ├── urls.py                # Mentor API URL routing
+│   │   ├── templates/             # Templates for Mentor app (if needed)
+│   │   │   └── mentors/
+│   │   │       └── mentor_list.html
+│   │   ├── static/                # Static files for the Mentor app
+│   │   │   └── mentors/
+│   │   │       └── css/
+│   │   │           └── mentor_styles.css
+│   │   └── tests.py               # Test cases for mentor-related functionality
+│   ├── media/                     # Directory to store uploaded files (images, docs, etc.)
+│   ├── static/                    # Global static files (CSS, JS for the entire project)
+│   ├── manage.py                  # Django's command-line utility
+│   └── requirements.txt           # Dependencies (install with pip)
+└── README.md                      # Project documentation
