@@ -1,0 +1,106 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+env/
+venv/
+
+# Database
+*.sqlite3
+
+# Media and Static files (if generated dynamically)
+media/
+static/
+
+# Secrets
+.env
+*.pem
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Logs and debug files
+*.log
+*.bak
+*.swp
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Byte-compiled files
+*.pyc
+*.pyo
+
+# Coverage reports
+htmlcov/
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+.coverage
+*.pytest_cache/
+
+# Mac OS files
+.DS_Store
+
+# Node.js dependencies (if any)
+node_modules/
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+env/
+venv/
+
+# Database
+*.sqlite3
+
+# Media and Static files (if generated dynamically)
+media/
+static/
+
+# Secrets
+.env
+*.pem
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Logs and debug files
+*.log
+*.bak
+*.swp
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Byte-compiled files
+*.pyc
+*.pyo
+
+# Coverage reports
+htmlcov/
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+.coverage
+*.pytest_cache/
+
+# Mac OS files
+.DS_Store
+
+# Node.js dependencies (if any)
+node_modules/
